@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
   {/* Profile picture - place your image at public/profile.svg (or update this src) */}
-  <img src="./assets/profile.jpeg" className="profile" alt="Profile" />
+  <img src="public/images/profile.jpeg" className="profile" alt="Profile" />
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
